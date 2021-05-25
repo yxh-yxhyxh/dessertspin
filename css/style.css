@@ -1,0 +1,77 @@
+/* Required for full background image */
+*{
+  margin: 0;
+  padding: 0;
+}
+html,
+body,
+header,
+.view
+{
+  height: 100%;
+  width: 100%;
+}
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view
+  .imag {
+    height: 80vh;
+  }
+}
+
+.top-nav-collapse ,.page-footer{
+  background-color: rgb(224, 135, 150) !important;
+}
+
+.navbar:not(.top-nav-collapse)
+ {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) 
+ {
+    background:rgb(224, 135, 150) !important;
+  }
+}
+
+.rgba-gradient {
+  
+  background: rgba(12, 12, 12, 0.2);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6));  /* Chrome 10-25, Safari 5.1-6 */
+  /* background: linear-gradient(to right, rgba(204, 83, 51, 0.6), rgba(35, 7, 77, 0.6)); /*W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+*/
+} 
+
+.streak.streak-photo {
+  background-attachment: fixed;
+}
+.imag{
+  background: url(../images/18.png) no-repeat;
+  background-size: 100%;
+} 
+
+.navbar-brand{
+  font:italic 29px bold ;
+}
+.img{
+width: 100%;
+height: 50%; 
+}
+.box{
+  height:76%;
+}
+.box1{
+  height: 80%;
+}
+.btn{
+  background: rgba(230, 123, 123, 0.4);
+}
+.left{
+  font-weight: bold;
+
+}
+.size{
+  width:100%
+}
